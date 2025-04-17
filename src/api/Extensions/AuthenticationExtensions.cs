@@ -3,7 +3,7 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Identity.Web;
 
-public static class ServiceCollectionExtensions
+public static class AuthenticationExtensions
 {
     public static IServiceCollection AddMicrosoftWebApiAuthentication(this IServiceCollection svc, IConfiguration cfg)
     {
