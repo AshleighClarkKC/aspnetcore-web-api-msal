@@ -1,6 +1,0 @@
-@Kaleidocode.Gists.API_HostAddress = http://localhost:5063
-
-GET {{Kaleidocode.Gists.API_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
